@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace RusyGameStudio.Tools
 {
+    /// <summary>
+    /// シネマシーンカメラのトラッキングドリーを自動で動かすツールです。
+    /// This is a tool to automatically move the Cinemachine camera's tracked dolly.
+    /// </summary>
     public class VCAMAutoDollyController : MonoBehaviour
     {
         [SerializeField] private float _timeScale = 1.0f;

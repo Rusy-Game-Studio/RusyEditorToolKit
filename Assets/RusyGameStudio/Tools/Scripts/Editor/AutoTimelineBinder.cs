@@ -28,7 +28,7 @@ namespace RusyGameStudio.Tools
         [SerializeField] private PlayableDirector[] directors;
         private GameObject searchTarget;
 
-        [MenuItem("Rusy Game Studio/Auto Timeline Binder")]
+        [MenuItem("RusyEditorToolKit/Auto Timeline Binder")]
         static void Open()
         {
             var window = GetWindow<AutoTimelineBinder>();

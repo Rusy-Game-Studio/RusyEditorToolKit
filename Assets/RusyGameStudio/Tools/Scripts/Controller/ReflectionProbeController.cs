@@ -3,15 +3,8 @@
 namespace RusyGameStudio.Tools
 {
     /// <summary>
-    /// 
     /// リフレクションプローブの更新頻度を制御するツールです。
-    /// リフレクションプローブをリアルタイム描画する必要があり、その上で最適化したい場合に有効です。
-    /// リフレクションプローブがセットされているオブジェクトに一緒にセットしてご利用ください。
-    /// 
     /// This is a tool to control the frequency of reflection probe updates.
-    /// It is useful when the reflection probe needs to be rendered in realtime and you want to optimize them.
-    /// Set this together on the object which set the reflection probe. 
-    /// 
     /// </summary>
     public class ReflectionProbeController : MonoBehaviour
     {

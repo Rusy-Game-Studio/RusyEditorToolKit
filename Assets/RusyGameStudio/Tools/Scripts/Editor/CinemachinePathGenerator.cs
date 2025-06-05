@@ -26,7 +26,6 @@ namespace RusyGameStudio.Tools
         private string logText = default;
         private bool isConnecting = false;
         private int prevSmoothness = 0;
-        private string dummyObjectPath = "Assets/_AKACore/Tools/Objects/DummySphere.prefab";
         // Main Variables -------------------------------------------------
         private CinemachineSmoothPath currentPath = default;
         private CinemachineSmoothPath.Waypoint[] sampleWaypoint = default;
@@ -55,7 +54,7 @@ namespace RusyGameStudio.Tools
         #endregion
 
 
-        [MenuItem("Rusy Game Studio/Cinemachine Path Generator")]
+        [MenuItem("RusyEditorToolKit/Cinemachine Path Generator")]
         static void Open()
         {
             var window = GetWindow<CinemachinePathGenerator>();

@@ -4,15 +4,10 @@ using UnityEngine.Rendering;
 namespace RusyGameStudio.Tools
 {
     /// <summary>
-    /// 
     /// 疑似レイトレーシングによって、リアルな反射を作るためのコントローラーです。
     /// 通常のリフレクションより処理が重い点に注意してください。
-    /// オプションとして、描画のタイムスパンをFPSで設定できます。
-    /// 
     /// This is a controller for creating realistic reflections with pseudo ray tracing.
     /// Note that this is a heavier process than normal reflection process.
-    /// Optionally, the rendering time span can be changed by FPS.
-    /// 
     /// </summary>
     public class RealisticReflectionController : MonoBehaviour
     {

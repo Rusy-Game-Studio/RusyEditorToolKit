@@ -5,7 +5,7 @@ namespace RusyGameStudio.Tools
 {
     public class VideoColorChecker : EditorWindow
     {
-        [MenuItem("Rusy Game Studio/Video Color Checker")]
+        [MenuItem("RusyEditorToolKit/Video Color Checker")]
         static void Open()
         {
             var window = GetWindow<VideoColorChecker>();

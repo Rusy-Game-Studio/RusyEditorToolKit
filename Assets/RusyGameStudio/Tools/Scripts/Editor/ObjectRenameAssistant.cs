@@ -10,8 +10,8 @@ namespace RusyGameStudio.Tools
         private bool fixedDigits = false;
         private int fixedDigitCount = 1;
         
-        [MenuItem("Rusy Game Studio/Object Rename Assistant")]
-        [MenuItem("GameObject/Object Rename Assistant", false, 0)]
+        [MenuItem("RusyEditorToolKit/Object Rename Assistant")]
+        [MenuItem("GameObject/Rusy Editor Tool Kit/Object Rename Assistant", false, 0)]
         static void Open()
         {
             var window = GetWindow<ObjectRenameAssistant>();

@@ -1,16 +1,24 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.IO;
+using System.Runtime.InteropServices;
 using Unity.Collections;
 using Unity.Mathematics;
+using UnityEditor;
 using UnityEngine;
 
 namespace RusyGameStudio.Tools
 {
+    /// <summary>
+    /// 動画から指定した座標の色を取得するためのツールです。
+    /// This is a tool to get colors from specified coordinates in a video.
+    /// </summary>
     public class VideoColorPickController : MonoBehaviour
     {
-        [SerializeField] private ComputeShader _shader = default;
+        private const string SHADER_PATH = "Assets/RusyGameStudio/Tools/Shader/PollingColorsComputeShader.compute";
+
         [SerializeField] private Vector2Int[] _readCoords = default;
         [SerializeField] private RenderTexture _sourceTexture = default;
         [SerializeField] private float _colorPickingTimeSpan = 0.1f;
+        private ComputeShader _shader = default;
         private float _currentTime = 0f;
         private int _kernel = 0;
         private GraphicsBuffer _colorBuffer = default;
@@ -19,9 +27,17 @@ namespace RusyGameStudio.Tools
 
         private void Awake()
         {
-            if (!_shader || !_sourceTexture || _readCoords.Length == 0)
+            _shader = AssetDatabase.LoadAssetAtPath<ComputeShader>(SHADER_PATH);
+            
+            if (_shader == null) 
+            { 
+                Debug.LogError("シェーダーが見つかりませんでした。"); 
+                this.enabled = false;
+                return; 
+            }
+            if (!_sourceTexture || _readCoords.Length == 0)
             {
-                Debug.LogError("Resource is not set.");
+                Debug.LogError("リソースをセットしてください。");
                 this.enabled = false;
                 return;
             }

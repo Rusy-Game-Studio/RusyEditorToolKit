@@ -34,7 +34,7 @@ namespace RusyGameStudio.Tools
         private Color COLOROFF = new Color(0.8f, 0.8f, 0.8f);
 
 
-        [MenuItem("Rusy Game Studio/Auto Object Positioner")]
+        [MenuItem("RusyEditorToolKit/Auto Object Positioner")]
         static void Open()
         {
             var window = GetWindow<AutoObjectPositioner>();
