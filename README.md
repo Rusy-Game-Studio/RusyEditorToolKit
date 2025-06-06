@@ -1,6 +1,6 @@
 # RusyEditorToolKit
 ---------------------
-### [日本語](https://github.com/RusyGameStudio/RusyEditorToolKit/edit/main/README.md#%E6%97%A5%E6%9C%AC%E8%AA%9E)
+### 日本語
 ### English
 ---------------------
 
