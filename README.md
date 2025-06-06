@@ -1,6 +1,7 @@
 # RusyEditorToolKit
 
-TEST
+# 日本語
+# English
 
 <details>
 
