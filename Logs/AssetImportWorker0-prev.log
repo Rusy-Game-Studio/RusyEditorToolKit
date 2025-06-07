@@ -2,7 +2,7 @@ Using pre-set license
 Built from 'trunk' branch; Version is '6000.1.0b3 (50200d1802f5) revision 5251085'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 65246 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-06-04T07:23:04Z
+Date: 2025-06-05T02:12:58Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.0b3\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/Git/_Test/RusyEditorToolKit
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58983
+56990
 -job-worker-count
 13
 -background-job-worker-count
@@ -62,14 +62,14 @@ D:/Git/_Test/RusyEditorToolKit
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4608]  Target information:
+Player connection [40696]  Target information:
 
-Player connection [4608]  * "[IP] 192.168.20.96 [Port] 0 [Flags] 2 [Guid] 785971831 [EditorId] 785971831 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ITJ6PS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [40696]  * "[IP] 192.168.20.100 [Port] 0 [Flags] 2 [Guid] 1245516924 [EditorId] 1245516924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ITJ6PS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4608]  * "[IP] 100.117.163.126 [Port] 0 [Flags] 2 [Guid] 785971831 [EditorId] 785971831 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ITJ6PS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [40696]  * "[IP] 100.117.163.126 [Port] 0 [Flags] 2 [Guid] 1245516924 [EditorId] 1245516924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ITJ6PS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4608] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4608] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [40696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40696] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.96 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 244.07 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.0b3 (50200d1802f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.0b3/Editor/Data/Resources/UnitySubsystems
@@ -97,45 +97,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.0b3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.0b3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.0b3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.0b3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.0b3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001129 seconds.
-- Loaded All Assemblies, in  0.255 seconds
+Registered in 0.001110 seconds.
+- Loaded All Assemblies, in  1.320 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 509ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (260ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (104ms)
-		LoadAssemblies (87ms)
+	RebuildCommonClasses (167ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (854ms)
+		LoadAssemblies (258ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (102ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (92ms)
+		AnalyzeDomain (852ms)
+			TypeCache.Refresh (851ms)
+				TypeCache.ScanAssembly (668ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (255ms)
+	FinalizeReload (245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (225ms)
+		SetupLoadedEditorAssemblies (218ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (47ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +144,8 @@ Domain Reload Profiling: 509ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.488 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.225 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
@@ -163,365 +163,70 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.445 seconds
-Domain Reload Profiling: 931ms
-	BeginReloadAssembly (110ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (321ms)
-		LoadAssemblies (220ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (116ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (445ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (348ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 228 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6611 unused Assets / (5.3 MB). Loaded Objects now: 7295.
-Memory consumption went from 180.5 MB to 175.2 MB.
-Total: 8.711000 ms (FindLiveObjects: 0.748300 ms CreateObjectMapping: 0.636300 ms MarkObjects: 5.032600 ms  DeleteObjects: 2.292700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 620475.736263 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Master/SpotLightTargetMaster.cs
-  artifactKey: Guid(9354c37968ebaa549a56d1477c7e949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Master/SpotLightTargetMaster.cs using Guid(9354c37968ebaa549a56d1477c7e949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13165d5327b6a919bc67c234bad20b7d') in 0.0033513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.874817 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Master/TrackNameWithNumber.cs
-  artifactKey: Guid(f4669175acf1e824798bbd363cccaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Master/TrackNameWithNumber.cs using Guid(f4669175acf1e824798bbd363cccaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd581e7cd1aeb2c6d80d59130be38bde') in 0.0005097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.084696 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Master/VFXType.cs
-  artifactKey: Guid(0c88513c746e18f4d897dd1fc373d85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Master/VFXType.cs using Guid(0c88513c746e18f4d897dd1fc373d85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44acab3ba2b9566f9b74f267d6e0e03f') in 0.0003474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.134964 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Master/VideoColorMaster.cs
-  artifactKey: Guid(4bcc19c9f91606b439383fe582a4725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Master/VideoColorMaster.cs using Guid(4bcc19c9f91606b439383fe582a4725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff16a66fc671b025fd13936da1bd623e') in 0.0003702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.582638 seconds.
-  path: Assets/_AKACore/Stage/Scripts/VFX/VFXPenLightController.cs
-  artifactKey: Guid(bd8ff22b78b9d9144ac49d2b8199a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/VFX/VFXPenLightController.cs using Guid(bd8ff22b78b9d9144ac49d2b8199a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '326132ed918f397a12f753137716b4a4') in 0.0006177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.134954 seconds.
-  path: Assets/_AKACore/Stage/Scripts/VFX/VFXLaserBeamController.cs
-  artifactKey: Guid(736436e9f7243d446983c7061091d27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/VFX/VFXLaserBeamController.cs using Guid(736436e9f7243d446983c7061091d27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2fa58d3b390153aae7ed0d616b89490') in 0.0003532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.400502 seconds.
-  path: Assets/_AKACore/Stage/Scripts/VFX/VFXHologramController.cs
-  artifactKey: Guid(dcd3e266195df6e44819ea6617922b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/VFX/VFXHologramController.cs using Guid(dcd3e266195df6e44819ea6617922b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed628f5f0e7de57c63e884dd1ef7b8ff') in 0.0003384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.972279 seconds.
-  path: Assets/_AKACore/Stage/Scripts/VFX/VFXFireController.cs
-  artifactKey: Guid(4c61a8b8428bc9a47979a2e563783b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/VFX/VFXFireController.cs using Guid(4c61a8b8428bc9a47979a2e563783b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ffbb6d6a459b0ed7f8d8c85bd81e7d2') in 0.0003736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.266351 seconds.
-  path: Assets/_AKACore/Stage/Scripts/VFX/VFXCharacterDissolveController.cs
-  artifactKey: Guid(f8dadfcf03e889a468423fe291eb1efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/VFX/VFXCharacterDissolveController.cs using Guid(f8dadfcf03e889a468423fe291eb1efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7035c5a518045bd1cbb860b33d9c434b') in 0.0003449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.106310 seconds.
-  path: Assets/_AKACore/Stage/Scripts/VFX/ScreenChangeController.cs
-  artifactKey: Guid(e0ca8993926b3584d85acab1b4dc9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/VFX/ScreenChangeController.cs using Guid(e0ca8993926b3584d85acab1b4dc9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d0704e8af7c906c2c9882432adecae1') in 0.0003433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.970378 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/LightTargetController.cs
-  artifactKey: Guid(a1f6fe5445f71d34ab1a2dd0d7b539ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/LightTargetController.cs using Guid(a1f6fe5445f71d34ab1a2dd0d7b539ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ff7bcc6e5b3d97fffc17adda49f802') in 0.0003392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.543171 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/LightColorController.cs
-  artifactKey: Guid(53eea009292ee1142931b2cee6b33ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/LightColorController.cs using Guid(53eea009292ee1142931b2cee6b33ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3817d7a2c32a178dea62ec371fdc7462') in 0.0003358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.907912 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/LightTrackController.cs
-  artifactKey: Guid(4041adad776322140ac834d65b32690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/LightTrackController.cs using Guid(4041adad776322140ac834d65b32690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e2174784c0c79e73f31fd034b9f8098') in 0.0003633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.438013 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/NeonColorController.cs
-  artifactKey: Guid(fbb46a039909b274c8257bdf2a63440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/NeonColorController.cs using Guid(fbb46a039909b274c8257bdf2a63440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f40808031ab4f0c4d59099f1ef2202d') in 0.0003362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.207065 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/ReflectionController.cs
-  artifactKey: Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/ReflectionController.cs using Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7040a5866c117667211992040a09c10d') in 0.0004031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.843734 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/ReflectionProbeController.cs
-  artifactKey: Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/ReflectionProbeController.cs using Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23fd647c9084a62508db3cd99af34c23') in 0.0003394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.143632 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/SpotLightController.cs
-  artifactKey: Guid(d141a7ae4e3a12349827f88823dc17a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/SpotLightController.cs using Guid(d141a7ae4e3a12349827f88823dc17a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4705d988ab9feb131adfbe48b1d7717') in 0.0003252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.568538 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/VCAMAutoDollyController.cs
-  artifactKey: Guid(4cd7dc7a0ba04664f9f9019e4fa6e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/VCAMAutoDollyController.cs using Guid(4cd7dc7a0ba04664f9f9019e4fa6e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc9772b04afeebc57034833cbbd88409') in 0.0003326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.631044 seconds.
-  path: Assets/_AKACore/Stage/Scripts/Controller/VideoColorPickController.cs
-  artifactKey: Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Scripts/Controller/VideoColorPickController.cs using Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ebd527179fc6fba2f8cd2a0b319a101') in 0.0004534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.830913 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3544c209d5948bcda4cc853fc9fd631') in 0.0144632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.83 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6591 unused Assets / (5.1 MB). Loaded Objects now: 7297.
-Memory consumption went from 143.7 MB to 138.6 MB.
-Total: 11.229300 ms (FindLiveObjects: 0.763000 ms CreateObjectMapping: 0.773900 ms MarkObjects: 6.881700 ms  DeleteObjects: 2.808900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.452 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.503 seconds
-Domain Reload Profiling: 957ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1971ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
+		CreateAndSetChildDomain (18ms)
 	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (214ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (1059ms)
+		LoadAssemblies (920ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (107ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (504ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (747ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.11 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6608 unused Assets / (4.7 MB). Loaded Objects now: 7311.
-Memory consumption went from 158.9 MB to 154.2 MB.
-Total: 8.728100 ms (FindLiveObjects: 0.670200 ms CreateObjectMapping: 0.569500 ms MarkObjects: 3.735400 ms  DeleteObjects: 3.751800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 79.014627 seconds.
-  path: Assets/_AKACore/Stage/Shaders/SubGraph/WorldSpaceUV.shadersubgraph
-  artifactKey: Guid(a74d13dab39fe4a4485dd688d66d04fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Shaders/SubGraph/WorldSpaceUV.shadersubgraph using Guid(a74d13dab39fe4a4485dd688d66d04fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd16dcfd4977c439007a6aba98f14e7e0') in 0.0205207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6600 unused Assets / (5.2 MB). Loaded Objects now: 7304.
+Memory consumption went from 189.5 MB to 184.3 MB.
+Total: 4.965900 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.226000 ms MarkObjects: 2.868300 ms  DeleteObjects: 1.424700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.302665 seconds.
-  path: Assets/_AKACore/Stage/Shaders/SubGraph/VectorRandomizer.shadersubgraph
-  artifactKey: Guid(62916d88ed3525245a975ba7d37b94f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Shaders/SubGraph/VectorRandomizer.shadersubgraph using Guid(62916d88ed3525245a975ba7d37b94f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93963599aa4a14094245ef7f8641f893') in 0.0007756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 172.148391 seconds.
-  path: Assets/_AKACore/Stage/Shaders/ShaderGraph/Ocean.shadergraph
-  artifactKey: Guid(2a5382b68739a074988442550378578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Shaders/ShaderGraph/Ocean.shadergraph using Guid(2a5382b68739a074988442550378578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:888)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:687)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:662)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:479)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs line 888]
-
-CommandBuffer: temporary render texture  not found while executing  (Copy destination)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:888)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:687)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:662)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs:479)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/UniversalRenderPipeline.cs line 888]
-
- -> (artifact id: '92a0f69ae9f2984f7335fe3e771d34c6') in 1.2382968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.391511 seconds.
-  path: Assets/_AKACore/Stage/Shaders/ShaderGraph/VideoScreen.shadergraph
-  artifactKey: Guid(2f20b531b922c384ba5c4b151abf2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_AKACore/Stage/Shaders/ShaderGraph/VideoScreen.shadergraph using Guid(2f20b531b922c384ba5c4b151abf2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71521bf7dbd42112aba8f7d4ca86bd42') in 0.6679258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 688272.278899 seconds.
+  path: Assets/RusyGameStudio/Scripts/Controller/ReflectionProbeController.cs
+  artifactKey: Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Scripts/Controller/ReflectionProbeController.cs using Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ba0f6e56eed1cdf4185e5567578f4c6') in 0.0038279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.83 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6592 unused Assets / (5.2 MB). Loaded Objects now: 7494.
-Memory consumption went from 163.6 MB to 158.3 MB.
-Total: 11.774100 ms (FindLiveObjects: 0.906600 ms CreateObjectMapping: 0.704600 ms MarkObjects: 7.451900 ms  DeleteObjects: 2.709200 ms)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6581 unused Assets / (4.8 MB). Loaded Objects now: 7306.
+Memory consumption went from 152.3 MB to 147.5 MB.
+Total: 7.632600 ms (FindLiveObjects: 0.780800 ms CreateObjectMapping: 0.328800 ms MarkObjects: 4.745800 ms  DeleteObjects: 1.776300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.460 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.470 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
@@ -539,86 +244,78 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.417 seconds
-Domain Reload Profiling: 880ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 935ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (275ms)
-		LoadAssemblies (215ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
+			BuildScriptInfoCaches (103ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (418ms)
+	FinalizeReload (463ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (294ms)
+		SetupLoadedEditorAssemblies (322ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (187ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.76 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6608 unused Assets / (5.3 MB). Loaded Objects now: 7374.
-Memory consumption went from 159.7 MB to 154.5 MB.
-Total: 7.917100 ms (FindLiveObjects: 0.622500 ms CreateObjectMapping: 0.477900 ms MarkObjects: 4.393900 ms  DeleteObjects: 2.421800 ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6598 unused Assets / (4.9 MB). Loaded Objects now: 7320.
+Memory consumption went from 167.6 MB to 162.6 MB.
+Total: 7.307900 ms (FindLiveObjects: 0.795700 ms CreateObjectMapping: 0.419000 ms MarkObjects: 4.275600 ms  DeleteObjects: 1.816900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 101.318220 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(35202337cbe75854dbf00ab7a2571ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(35202337cbe75854dbf00ab7a2571ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb25be26c111580c3e605eda7d27d340') in 0.0213645 seconds
+  Time since last request: 1308.088669 seconds.
+  path: Assets/RusyGameStudio/Tools
+  artifactKey: Guid(b3186dedfc2585e43ae848179804d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools using Guid(b3186dedfc2585e43ae848179804d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf993a8fc651220a441fd951098ce6ec') in 0.0100648 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.973315 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc52c6f3c72c5042993079c1761f9bb2') in 0.0008579 seconds
+  Time since last request: 9.506880 seconds.
+  path: Assets/RusyGameStudio/Tools/Controller
+  artifactKey: Guid(ead248742ef73e34aa08d2083b1b1222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Controller using Guid(ead248742ef73e34aa08d2083b1b1222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dc7bec98285bc8b22a9f47a33904960') in 0.0004476 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.732498 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(35202337cbe75854dbf00ab7a2571ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(35202337cbe75854dbf00ab7a2571ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '673127e258a3843c36826241147aa4ed') in 0.0005422 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.73 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6591 unused Assets / (4.9 MB). Loaded Objects now: 7393.
-Memory consumption went from 159.8 MB to 154.9 MB.
-Total: 9.016400 ms (FindLiveObjects: 0.715100 ms CreateObjectMapping: 0.625900 ms MarkObjects: 5.229400 ms  DeleteObjects: 2.444900 ms)
+Unloading 6581 unused Assets / (5.1 MB). Loaded Objects now: 7320.
+Memory consumption went from 166.0 MB to 160.9 MB.
+Total: 5.229200 ms (FindLiveObjects: 0.473600 ms CreateObjectMapping: 0.248100 ms MarkObjects: 2.971300 ms  DeleteObjects: 1.535300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.436 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
@@ -636,62 +333,62 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 863ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.411 seconds
+Domain Reload Profiling: 848ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (199ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (202ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (111ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (426ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (412ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (289ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6608 unused Assets / (6.8 MB). Loaded Objects now: 7395.
-Memory consumption went from 159.6 MB to 152.8 MB.
-Total: 8.336700 ms (FindLiveObjects: 0.646800 ms CreateObjectMapping: 0.459800 ms MarkObjects: 3.461300 ms  DeleteObjects: 3.754100 ms)
+Unloading 6598 unused Assets / (4.8 MB). Loaded Objects now: 7322.
+Memory consumption went from 165.8 MB to 161.0 MB.
+Total: 4.772200 ms (FindLiveObjects: 0.469900 ms CreateObjectMapping: 0.262800 ms MarkObjects: 2.793200 ms  DeleteObjects: 1.245700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6591 unused Assets / (5.1 MB). Loaded Objects now: 7395.
-Memory consumption went from 159.7 MB to 154.7 MB.
-Total: 7.848100 ms (FindLiveObjects: 0.616100 ms CreateObjectMapping: 0.579300 ms MarkObjects: 4.434300 ms  DeleteObjects: 2.217200 ms)
+Unloading 6581 unused Assets / (4.9 MB). Loaded Objects now: 7322.
+Memory consumption went from 166.0 MB to 161.1 MB.
+Total: 7.104400 ms (FindLiveObjects: 0.625800 ms CreateObjectMapping: 0.446000 ms MarkObjects: 4.595700 ms  DeleteObjects: 1.436100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.439 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.469 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
@@ -709,175 +406,60 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.429 seconds
-Domain Reload Profiling: 870ms
-	BeginReloadAssembly (126ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (200ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (115ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (430ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (299ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (187ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.01 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6608 unused Assets / (4.7 MB). Loaded Objects now: 7397.
-Memory consumption went from 159.6 MB to 154.9 MB.
-Total: 8.033700 ms (FindLiveObjects: 1.029400 ms CreateObjectMapping: 0.432300 ms MarkObjects: 5.094900 ms  DeleteObjects: 1.475800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 53.992590 seconds.
-  path: Assets/RusyGameStudio/Scripts/VFX/VisionEffects.cs
-  artifactKey: Guid(8e2f59e6d3c4d7f4bb176810858727dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RusyGameStudio/Scripts/VFX/VisionEffects.cs using Guid(8e2f59e6d3c4d7f4bb176810858727dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb3bf8b4b8956d333b692e34895a74d8') in 0.017365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.780521 seconds.
-  path: Assets/RusyGameStudio/Scripts/VFX/VFXSmokeController.cs
-  artifactKey: Guid(3fe128c6e953b0244becb6e872b7022d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RusyGameStudio/Scripts/VFX/VFXSmokeController.cs using Guid(3fe128c6e953b0244becb6e872b7022d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d71dbe2309f6e35784ea238ddc0c916') in 0.0003814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.234185 seconds.
-  path: Assets/RusyGameStudio/Scripts/VFX/VFXRainSnowController.cs
-  artifactKey: Guid(ab62475f6882dec4e890e6b599b1ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RusyGameStudio/Scripts/VFX/VFXRainSnowController.cs using Guid(ab62475f6882dec4e890e6b599b1ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1906f41a5bb9fbfc795ec9b185778571') in 0.0006823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.16 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6582 unused Assets / (5.0 MB). Loaded Objects now: 7388.
-Memory consumption went from 159.7 MB to 154.7 MB.
-Total: 8.770400 ms (FindLiveObjects: 0.729400 ms CreateObjectMapping: 0.532700 ms MarkObjects: 4.996900 ms  DeleteObjects: 2.509900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.437 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.433 seconds
-Domain Reload Profiling: 872ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 894ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
+		CreateAndSetChildDomain (31ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (200ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (434ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (424ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (305ms)
+		SetupLoadedEditorAssemblies (302ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (195ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (191ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.97 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6599 unused Assets / (4.2 MB). Loaded Objects now: 7390.
-Memory consumption went from 159.6 MB to 155.4 MB.
-Total: 7.014800 ms (FindLiveObjects: 0.506800 ms CreateObjectMapping: 0.545100 ms MarkObjects: 3.936100 ms  DeleteObjects: 2.025700 ms)
+Unloading 6598 unused Assets / (4.9 MB). Loaded Objects now: 7324.
+Memory consumption went from 165.9 MB to 161.0 MB.
+Total: 5.089500 ms (FindLiveObjects: 0.427800 ms CreateObjectMapping: 0.243700 ms MarkObjects: 3.091900 ms  DeleteObjects: 1.325400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 22.677123 seconds.
-  path: Assets/RusyGameStudio/Scripts/Master/ColorGridNumber.cs
-  artifactKey: Guid(ddef12364b8680147894ce02e8660b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RusyGameStudio/Scripts/Master/ColorGridNumber.cs using Guid(ddef12364b8680147894ce02e8660b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeb941dd90d418d5fda03fc7772f591c') in 0.0063798 seconds
+  Time since last request: 3019.840783 seconds.
+  path: Assets/RusyGameStudio/Scripts/Controller/ReflectionController.cs
+  artifactKey: Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Scripts/Controller/ReflectionController.cs using Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e2dccad07c07196d8793c1a92a9dcdd') in 0.0290391 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 1408.266477 seconds.
-  path: Assets/RusyGameStudio/Tools/Editor/AutoObjectPositioner.cs
-  artifactKey: Guid(b550cc032a199c64c94a106d86d7a131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RusyGameStudio/Tools/Editor/AutoObjectPositioner.cs using Guid(b550cc032a199c64c94a106d86d7a131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a2af247d6f80ec89e7a15ad27d320d4') in 0.000686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.84 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6582 unused Assets / (4.9 MB). Loaded Objects now: 7390.
-Memory consumption went from 159.7 MB to 154.8 MB.
-Total: 11.896800 ms (FindLiveObjects: 0.683400 ms CreateObjectMapping: 0.661200 ms MarkObjects: 7.698700 ms  DeleteObjects: 2.851800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.479 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.490 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
@@ -895,44 +477,1020 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.464 seconds
-Domain Reload Profiling: 944ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 1062ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6598 unused Assets / (4.8 MB). Loaded Objects now: 7326.
+Memory consumption went from 165.9 MB to 161.0 MB.
+Total: 4.899300 ms (FindLiveObjects: 0.407300 ms CreateObjectMapping: 0.213000 ms MarkObjects: 2.814400 ms  DeleteObjects: 1.462400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.24 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6581 unused Assets / (5.3 MB). Loaded Objects now: 7326.
+Memory consumption went from 166.0 MB to 160.6 MB.
+Total: 7.857000 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.526700 ms MarkObjects: 3.587400 ms  DeleteObjects: 3.164500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6598 unused Assets / (4.8 MB). Loaded Objects now: 7328.
+Memory consumption went from 165.9 MB to 161.0 MB.
+Total: 5.854000 ms (FindLiveObjects: 0.500100 ms CreateObjectMapping: 0.283400 ms MarkObjects: 3.139500 ms  DeleteObjects: 1.930200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.321110 seconds.
+  path: Assets/RusyGameStudio/Tools/Prefabs
+  artifactKey: Guid(9ce7d0cea5b5afd4ba685c690b0f5e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Prefabs using Guid(9ce7d0cea5b5afd4ba685c690b0f5e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0da0098f922fcd025740dab0386a97b') in 0.0155578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.837520 seconds.
+  path: Assets/RusyGameStudio/Tools/Controller/RealisticReflectionController.cs
+  artifactKey: Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Controller/RealisticReflectionController.cs using Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef9077be19c6ddb75ad661cf02c3e882') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6581 unused Assets / (4.9 MB). Loaded Objects now: 7328.
+Memory consumption went from 166.0 MB to 161.1 MB.
+Total: 6.299200 ms (FindLiveObjects: 0.509000 ms CreateObjectMapping: 0.277700 ms MarkObjects: 3.690600 ms  DeleteObjects: 1.820800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 874ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6598 unused Assets / (5.4 MB). Loaded Objects now: 7330.
+Memory consumption went from 165.9 MB to 160.5 MB.
+Total: 6.418200 ms (FindLiveObjects: 0.701200 ms CreateObjectMapping: 0.466100 ms MarkObjects: 3.281900 ms  DeleteObjects: 1.968000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 73.185547 seconds.
+  path: Assets/RusyGameStudio/Tools/Controller/ReflectionProbeController.cs
+  artifactKey: Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Controller/ReflectionProbeController.cs using Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01f1ca6751966ac97790b233e07b603a') in 0.0105932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.01 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6581 unused Assets / (4.0 MB). Loaded Objects now: 7330.
+Memory consumption went from 166.0 MB to 162.0 MB.
+Total: 5.876100 ms (FindLiveObjects: 0.418300 ms CreateObjectMapping: 0.233500 ms MarkObjects: 3.675000 ms  DeleteObjects: 1.548400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.177020 seconds.
+  path: Assets/RusyGameStudio/Tools/Controller/ReflectionProbeController.cs
+  artifactKey: Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Controller/ReflectionProbeController.cs using Guid(7c459c6a29e99f54bae8fbf6c215a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a34de6a9597f5a307d24bb19e0e36a92') in 0.0058998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.425 seconds
+Domain Reload Profiling: 887ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (32ms)
 	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (285ms)
-		LoadAssemblies (229ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (221ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (114ms)
+			BuildScriptInfoCaches (109ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (464ms)
+	FinalizeReload (425ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (317ms)
+		SetupLoadedEditorAssemblies (300ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 1.43 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6599 unused Assets / (4.9 MB). Loaded Objects now: 7392.
-Memory consumption went from 163.4 MB to 158.5 MB.
-Total: 8.069100 ms (FindLiveObjects: 0.591000 ms CreateObjectMapping: 0.433300 ms MarkObjects: 4.838900 ms  DeleteObjects: 2.204500 ms)
+Unloading 6598 unused Assets / (4.8 MB). Loaded Objects now: 7332.
+Memory consumption went from 165.9 MB to 161.0 MB.
+Total: 5.060900 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.242700 ms MarkObjects: 3.099100 ms  DeleteObjects: 1.319700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.14 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6581 unused Assets / (4.5 MB). Loaded Objects now: 7332.
+Memory consumption went from 166.0 MB to 161.5 MB.
+Total: 7.731200 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.250200 ms MarkObjects: 4.874300 ms  DeleteObjects: 2.152400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6598 unused Assets / (4.8 MB). Loaded Objects now: 7334.
+Memory consumption went from 165.9 MB to 161.1 MB.
+Total: 4.802400 ms (FindLiveObjects: 0.433000 ms CreateObjectMapping: 0.231600 ms MarkObjects: 2.848200 ms  DeleteObjects: 1.288600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 114.331317 seconds.
+  path: Assets/RusyGameStudio/Tools/Resources
+  artifactKey: Guid(d2caeba8e181d59498d95bfaf101b655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Resources using Guid(d2caeba8e181d59498d95bfaf101b655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ce9376d2ba9f5c110d2479cd909143d') in 0.0129221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.799329 seconds.
+  path: Assets/RusyGameStudio/Tools/Resources/ReflectionCameraVolume.asset
+  artifactKey: Guid(5671de54e871f62449b3ee1afc4b4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Resources/ReflectionCameraVolume.asset using Guid(5671de54e871f62449b3ee1afc4b4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83b864e26975353afffdfd530f34e72c') in 0.0129844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 526.619041 seconds.
+  path: Assets/RusyGameStudio/Tools/Prefabs/RealisticReflectionSystem.prefab
+  artifactKey: Guid(78499babe388f83429dec71813b2802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Prefabs/RealisticReflectionSystem.prefab using Guid(78499babe388f83429dec71813b2802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b816fd7eaef0ba96015082184ed46d41') in 0.0189751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6575 unused Assets / (4.5 MB). Loaded Objects now: 7329.
+Memory consumption went from 166.0 MB to 161.5 MB.
+Total: 9.370600 ms (FindLiveObjects: 0.530500 ms CreateObjectMapping: 0.525400 ms MarkObjects: 5.963000 ms  DeleteObjects: 2.350200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7800.667782 seconds.
+  path: Assets/RusyGameStudio/Tools/Editor
+  artifactKey: Guid(79980c81614286d45ab1df7c5ff0a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Editor using Guid(79980c81614286d45ab1df7c5ff0a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8cb8d1670b82bc8851ec4087a821d8') in 0.0130415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.27 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (4.6 MB). Loaded Objects now: 7330.
+Memory consumption went from 166.0 MB to 161.4 MB.
+Total: 11.399700 ms (FindLiveObjects: 0.617400 ms CreateObjectMapping: 0.383700 ms MarkObjects: 8.788000 ms  DeleteObjects: 1.609300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 79.356142 seconds.
+  path: Assets/RusyGameStudio/Tools/Editor/VideoColorChecker.cs
+  artifactKey: Guid(98f02ee03ac384f42aecb0ff2f661d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Editor/VideoColorChecker.cs using Guid(98f02ee03ac384f42aecb0ff2f661d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3e79db2079c81efa9e1fd4e5328b3f7') in 0.0085678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.163742 seconds.
+  path: Assets/RusyGameStudio/Tools/Editor/CustomGUIStyles.cs
+  artifactKey: Guid(6853ef9993579b24fa90a5f09c2433e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Editor/CustomGUIStyles.cs using Guid(6853ef9993579b24fa90a5f09c2433e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7320effc4f2698d946dd6ffaba00fac1') in 0.0003793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.194675 seconds.
+  path: Assets/RusyGameStudio/Tools/Editor/AutoTimelineBinder.cs
+  artifactKey: Guid(ca6ff7bd8f8a86f449d7d25f233afd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Editor/AutoTimelineBinder.cs using Guid(ca6ff7bd8f8a86f449d7d25f233afd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b5bc4fc9e14c424ef701f5b1dfbf6c') in 0.0004115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.44 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (4.7 MB). Loaded Objects now: 7330.
+Memory consumption went from 166.0 MB to 161.3 MB.
+Total: 6.755200 ms (FindLiveObjects: 0.496100 ms CreateObjectMapping: 0.367700 ms MarkObjects: 4.275300 ms  DeleteObjects: 1.615200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.05 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (5.8 MB). Loaded Objects now: 7330.
+Memory consumption went from 166.0 MB to 160.2 MB.
+Total: 9.714100 ms (FindLiveObjects: 1.303000 ms CreateObjectMapping: 0.462000 ms MarkObjects: 4.757100 ms  DeleteObjects: 3.190300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 147.048049 seconds.
+  path: Assets/RusyGameStudio/Tools/Master
+  artifactKey: Guid(c9320006654399a4ba42e085ef0d67e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Master using Guid(c9320006654399a4ba42e085ef0d67e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da5ebd7af0cc7f81dc5bae5499bae80') in 0.0087534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.23 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6577 unused Assets / (4.8 MB). Loaded Objects now: 7331.
+Memory consumption went from 166.0 MB to 161.2 MB.
+Total: 5.536500 ms (FindLiveObjects: 0.490700 ms CreateObjectMapping: 0.243600 ms MarkObjects: 3.351100 ms  DeleteObjects: 1.450300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.376615 seconds.
+  path: Assets/RusyGameStudio/Tools/Master/VideoColorMaster.cs
+  artifactKey: Guid(f8d9fa2f2cdae8c4c9fe1bd84aada321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Master/VideoColorMaster.cs using Guid(f8d9fa2f2cdae8c4c9fe1bd84aada321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73e05b247bf4557973c3ab32a2fba7b1') in 0.0034263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.02 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6577 unused Assets / (5.0 MB). Loaded Objects now: 7331.
+Memory consumption went from 166.0 MB to 161.1 MB.
+Total: 7.819600 ms (FindLiveObjects: 0.843700 ms CreateObjectMapping: 0.381400 ms MarkObjects: 4.329800 ms  DeleteObjects: 2.263600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.95 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6577 unused Assets / (5.1 MB). Loaded Objects now: 7331.
+Memory consumption went from 166.0 MB to 160.9 MB.
+Total: 6.497200 ms (FindLiveObjects: 0.827300 ms CreateObjectMapping: 0.317600 ms MarkObjects: 3.952800 ms  DeleteObjects: 1.398800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.13 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (4.7 MB). Loaded Objects now: 7330.
+Memory consumption went from 166.0 MB to 161.4 MB.
+Total: 9.750400 ms (FindLiveObjects: 0.905000 ms CreateObjectMapping: 0.498000 ms MarkObjects: 6.389500 ms  DeleteObjects: 1.956500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6575 unused Assets / (4.7 MB). Loaded Objects now: 7329.
+Memory consumption went from 166.0 MB to 161.3 MB.
+Total: 7.485300 ms (FindLiveObjects: 0.470600 ms CreateObjectMapping: 0.287200 ms MarkObjects: 5.148200 ms  DeleteObjects: 1.578500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.66 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (5.4 MB). Loaded Objects now: 7328.
+Memory consumption went from 166.0 MB to 160.6 MB.
+Total: 9.499000 ms (FindLiveObjects: 0.490200 ms CreateObjectMapping: 0.286900 ms MarkObjects: 4.702400 ms  DeleteObjects: 4.018400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.06 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.8 MB). Loaded Objects now: 7327.
+Memory consumption went from 166.0 MB to 161.2 MB.
+Total: 5.621300 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.286100 ms MarkObjects: 3.372100 ms  DeleteObjects: 1.507200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1226.439152 seconds.
+  path: Assets/RusyGameStudio/Tools/Controller/RealisticReflectionController.cs
+  artifactKey: Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Controller/RealisticReflectionController.cs using Guid(119d6e1bb5fc4ec42bbc4708bb5ac207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4701515ddee7b48d4be1e4788dc5f02b') in 0.0271548 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.02 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (5.3 MB). Loaded Objects now: 7325.
+Memory consumption went from 165.0 MB to 159.7 MB.
+Total: 8.256500 ms (FindLiveObjects: 0.704300 ms CreateObjectMapping: 0.305500 ms MarkObjects: 4.905900 ms  DeleteObjects: 2.339900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 574.860517 seconds.
+  path: Assets/RusyGameStudio/Scripts/Controller/VideoColorPickController.cs
+  artifactKey: Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Scripts/Controller/VideoColorPickController.cs using Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d50ad2d6d7f8e45d7ca0829491eef68') in 0.0055728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.801 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 2355ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (1370ms)
+		LoadAssemblies (1457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.3 MB). Loaded Objects now: 7327.
+Memory consumption went from 164.9 MB to 160.6 MB.
+Total: 6.225100 ms (FindLiveObjects: 0.520000 ms CreateObjectMapping: 0.234300 ms MarkObjects: 4.076200 ms  DeleteObjects: 1.393600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.004289 seconds.
+  path: Assets/RusyGameStudio/Scripts/Controller/VideoColorPickController.cs
+  artifactKey: Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Scripts/Controller/VideoColorPickController.cs using Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b158f4f082922067307d653adb48c5a') in 0.0040215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.96 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.8 MB). Loaded Objects now: 7327.
+Memory consumption went from 165.0 MB to 160.2 MB.
+Total: 4.883100 ms (FindLiveObjects: 0.416800 ms CreateObjectMapping: 0.244200 ms MarkObjects: 2.804500 ms  DeleteObjects: 1.415800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.545554 seconds.
+  path: Assets/RusyGameStudio/Tools/Controller/VideoColorPickController.cs
+  artifactKey: Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RusyGameStudio/Tools/Controller/VideoColorPickController.cs using Guid(e9d7414ca70fe5342ad2adab21d5c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a78774b802ce6eec32a7895a761b7d3') in 0.0039008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.415 seconds
+Domain Reload Profiling: 860ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (415ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (297ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.8 MB). Loaded Objects now: 7329.
+Memory consumption went from 164.9 MB to 160.0 MB.
+Total: 5.056500 ms (FindLiveObjects: 0.449600 ms CreateObjectMapping: 0.256700 ms MarkObjects: 2.994100 ms  DeleteObjects: 1.355300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.84 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.6 MB). Loaded Objects now: 7329.
+Memory consumption went from 165.0 MB to 160.3 MB.
+Total: 6.709300 ms (FindLiveObjects: 1.072600 ms CreateObjectMapping: 0.362300 ms MarkObjects: 4.070400 ms  DeleteObjects: 1.203300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.484 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.422 seconds
+Domain Reload Profiling: 908ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.0 MB). Loaded Objects now: 7331.
+Memory consumption went from 164.9 MB to 160.9 MB.
+Total: 5.781200 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.267400 ms MarkObjects: 3.660800 ms  DeleteObjects: 1.396500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.40 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.8 MB). Loaded Objects now: 7331.
+Memory consumption went from 165.0 MB to 160.1 MB.
+Total: 6.270900 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.250500 ms MarkObjects: 4.162600 ms  DeleteObjects: 1.398000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.814 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 2300ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (1410ms)
+		LoadAssemblies (1480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.9 MB). Loaded Objects now: 7333.
+Memory consumption went from 164.9 MB to 160.0 MB.
+Total: 5.100600 ms (FindLiveObjects: 0.538100 ms CreateObjectMapping: 0.365100 ms MarkObjects: 2.776100 ms  DeleteObjects: 1.419600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.00 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.1 MB). Loaded Objects now: 7333.
+Memory consumption went from 165.0 MB to 160.9 MB.
+Total: 5.979200 ms (FindLiveObjects: 0.744700 ms CreateObjectMapping: 0.246600 ms MarkObjects: 3.718300 ms  DeleteObjects: 1.268600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.438 seconds
+Domain Reload Profiling: 900ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.9 MB). Loaded Objects now: 7335.
+Memory consumption went from 164.9 MB to 160.0 MB.
+Total: 4.947700 ms (FindLiveObjects: 0.461100 ms CreateObjectMapping: 0.240800 ms MarkObjects: 2.849300 ms  DeleteObjects: 1.395600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.00 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (4.9 MB). Loaded Objects now: 7335.
+Memory consumption went from 165.0 MB to 160.1 MB.
+Total: 8.214000 ms (FindLiveObjects: 0.487000 ms CreateObjectMapping: 0.243800 ms MarkObjects: 5.948800 ms  DeleteObjects: 1.533400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs:431)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@2fe51278b4a8/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 431)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (434ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6590 unused Assets / (4.7 MB). Loaded Objects now: 7337.
+Memory consumption went from 164.9 MB to 160.2 MB.
+Total: 4.937300 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.238000 ms MarkObjects: 3.002300 ms  DeleteObjects: 1.278600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
