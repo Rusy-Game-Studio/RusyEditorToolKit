@@ -1,0 +1,14 @@
+{
+    "name": "com.Rusy-Game-Studio.RusyEditorToolKit",
+    "displayName": "Rusy Editor Tool Kit", 
+    "version": "0.1.0",               
+    "unity": "6000.1",
+    "description": "Test",
+    "author": {
+        "name": "Rusy-Game-Studio",
+        "url": "https://github.com/Rusy-Game-Studio"
+    },
+    
+    "dependencies": {
+    },
+}
