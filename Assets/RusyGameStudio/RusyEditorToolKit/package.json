@@ -1,14 +1,12 @@
 {
-    "name": "com.rusy-game-studio.rusy-editor-tool-kit",
-    "displayName": "Rusy Editor Tool Kit", 
-    "version": "0.0.1",               
-    "unity": "6000.1",
-    "description": "Test",
-    "author": {
-        "name": "Rusy-Game-Studio",
-        "url": "https://github.com/Rusy-Game-Studio"
-    },
-    
-    "dependencies": {
-    },
+  "name": "com.rusy-game-studio.rusy-editor-tool-kit",
+  "version": "0.0.1",
+  "displayName": "Rusy Editor Tool Kit",
+  "unity": "6000.1",
+  "author": {
+    "name": "Rusy-Game-Studio",
+    "url": "https://github.com/Rusy-Game-Studio"
+  },
+  
+  "license": "MIT License"
 }
