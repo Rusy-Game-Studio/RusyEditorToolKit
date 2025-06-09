@@ -6,6 +6,8 @@
 
 # 日本語ドキュメント
 
+https://github.com/Rusy-Game-Studio/RusyEditorToolKit.git?path=Assets/RusyGameStudio/RusyEditorToolKit
+
 <details>
 <summary> Auto Object Positioner </summary>
 オブジェクトをスプラインに沿って自動的に並べるツールです。
