@@ -1,8 +1,6 @@
-﻿using System.IO;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 using Unity.Collections;
 using Unity.Mathematics;
-using UnityEditor;
 using UnityEngine;
 
 namespace RusyGameStudio.Tools
@@ -13,7 +11,7 @@ namespace RusyGameStudio.Tools
     /// </summary>
     public class VideoColorPickController : MonoBehaviour
     {
-        private const string SHADER_PATH = "Assets/RusyGameStudio/Tools/Shader/PollingColorsComputeShader.compute";
+        private const string SHADER_PATH = "Packages/com.rusy-game-studio.rusy-editor-tool-kit/Runtime/Shader/PollingColorsComputeShader.compute";
 
         [SerializeField] private Vector2Int[] _readCoords = default;
         [SerializeField] private RenderTexture _sourceTexture = default;
@@ -27,7 +25,7 @@ namespace RusyGameStudio.Tools
 
         private void Awake()
         {
-            _shader = AssetDatabase.LoadAssetAtPath<ComputeShader>(SHADER_PATH);
+            _shader = UnityEditor.AssetDatabase.LoadAssetAtPath<ComputeShader>(SHADER_PATH);
             
             if (_shader == null) 
             { 

@@ -1,11 +1,12 @@
 {
     "name": "RusyEditorToolKit",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": [
-        "Editor"
+    "references": [
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:4307f53044263cf4b835bd812fc161a4"
     ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
