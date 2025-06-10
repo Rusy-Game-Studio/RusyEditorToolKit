@@ -477,7 +477,7 @@ namespace RusyGameStudio.Tools
             }
             else
             {
-                GameObject[] objects = FindObjectsOfType<GameObject>();
+                GameObject[] objects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
                 if (objects.Length == 0)
                 {
                     logText = $"{COLORTAG_SR}There are no objects.{COLORTAG_E}";
@@ -541,7 +541,7 @@ namespace RusyGameStudio.Tools
             }
             else
             {
-                GameObject[] objects = FindObjectsOfType<GameObject>();
+                GameObject[] objects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
                 if (objects.Length == 0)
                 {
                     logText = $"{COLORTAG_SR}There are no objects.{COLORTAG_E}";
@@ -592,7 +592,7 @@ namespace RusyGameStudio.Tools
             }
             else
             {
-                GameObject[] objects = FindObjectsOfType<GameObject>();
+                GameObject[] objects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
                 if (objects.Length == 0)
                 {
                     logText = $"{COLORTAG_SR}There are no objects.{COLORTAG_E}";

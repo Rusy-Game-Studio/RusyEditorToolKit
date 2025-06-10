@@ -21,10 +21,10 @@ namespace RusyGameStudio.Tools
         {
             if (!EditorApplication.isPlaying) return;
 
-            for (int i = 0; i < VideoColorMaster.ColorCount; i++)
-            {
-                EditorGUILayout.ColorField($"Color {i}", VideoColorMaster.GetColor(i));
-            }
+            //for (int i = 0; i < VideoColorMaster.ColorCount; i++)
+            //{
+            //    EditorGUILayout.ColorField($"Color {i}", VideoColorMaster.GetColor(i));
+            //}
         }
     }
 }
