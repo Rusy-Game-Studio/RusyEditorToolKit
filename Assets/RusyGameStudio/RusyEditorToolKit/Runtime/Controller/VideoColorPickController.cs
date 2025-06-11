@@ -5,6 +5,8 @@ using UnityEngine;
 
 namespace RusyGameStudio.Tools
 {
+    //TODO;ビルドしたら使えなくなる
+    #if UNITY_EDITOR
     /// <summary>
     /// 動画から指定した座標の色を取得するためのツールです。
     /// This is a tool to get colors from specified coordinates in a video.
@@ -100,4 +102,5 @@ namespace RusyGameStudio.Tools
             return buffer;
         }
     }
+    #endif
 }
