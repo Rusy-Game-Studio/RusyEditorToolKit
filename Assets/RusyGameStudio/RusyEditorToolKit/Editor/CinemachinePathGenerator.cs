@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Splines;
 using UnityEditor;
